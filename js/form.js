@@ -14,7 +14,7 @@ function ValidateEmail(inputText)
 var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 if(inputText.value.match(mailformat))
 {
-alert("Valid email address!");
+
 return true;
 }
 else
@@ -31,7 +31,7 @@ function phonenumber(inputtxt)
   var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
   if(inputtxt.value.match(phoneno)||inputtxt.value.match(phno))
      {
-      alert("Valid Phone Number");
+      
 	    return true;      
 	 }
    else
