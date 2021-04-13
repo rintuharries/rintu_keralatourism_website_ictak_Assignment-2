@@ -1,0 +1,539 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nav-bar{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+.navbar-brand  img{
+ height:150px;
+ width: 150px;
+ padding-top: 60px;
+ padding-left:10px;
+ padding-bottom: 10px;
+}
+.navbar{
+    background-image: linear-gradient(to right,#ccff33,black);
+    padding: 0 !important;
+}
+.navbar-nav .nav-link{
+padding-left: 40px;
+}
+.navbar-nav a{
+ font-size: 25px;
+ width: 80%;
+ padding-top: 80px;
+}
+header .navbar .navbar-nav.absolute-right {
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 991.98px) {
+  header .navbar .navbar-nav.absolute-right {
+    position: relative;
+    right: inherit;
+  }
+}
+.top-head h1{
+  color: #ccff33;
+  align-items: center;
+  padding-left: 150px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-item img{
+    height:400px;
+    width :60px;
+}
+ .section p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+figure.snip0015 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+}
+figure.snip0015 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip0015 img {
+  opacity: 1;
+  width: 100%;
+  height: 300px;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip0015 figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 3em 3em;
+  width: 100%;
+  height: 100%;
+}
+figure.snip0015 figcaption::before {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  bottom: 50%;
+  left: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  content: '';
+  opacity: 0;
+  background-color: #ffffff;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+figure.snip0015 h3,
+figure.snip0015 p {
+  margin: 0 0 5px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
+}
+figure.snip0015 h3 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-transform: translate3d(0%, 50%, 0);
+  transform: translate3d(0%, 50%, 0);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip0015 p {
+  font-weight: 200	;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+figure.snip0015:hover img {
+  opacity: 0.35;
+}
+figure.snip0015:hover figcaption h3 {
+  opacity: 1;
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip0015:hover figcaption p {
+  opacity: 0.9;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+figure.snip0015:hover figcaption::before {
+  background: rgba(255, 255, 255, 0);
+  top: 30px;
+  bottom: 30px;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+#hero-text{
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+}
+#keralatour{
+    padding: 3% 0 3.5% 0;
+    position: relative;
+    background-color: #fff;
+}
+
+ col{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+ .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: 10px;
+    margin-top: 30px;
+    padding-bottom: 70px;
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+ }
+  /* login page */
+ .loginsection{
+  padding: 20px 45px 10px 15px;
+  margin-left: 450px;
+  margin-top: 20px;
+  margin-right: 400px;
+  justify-content: center;
+}
+.title{
+  text-align: center;
+  justify-content: center;
+} 
+.login{  
+  width: 382px;  
+  overflow: hidden;  
+  margin:20px auto;  
+  margin: 20 0 0 400px;  
+  padding: 50px;  
+  background:#339966;  
+  border-radius: 15px ;    
+}  
+.login h2{  
+  text-align: center;  
+  color: white;  
+  padding: 20px;  
+}   
+label{  
+color: black;  
+font-size: 20px;  
+}  
+.title{
+  color: black;
+  font-size:23px;
+}
+#userName{  
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s;
+  border-color: #27ae60;
+  box-shadow: inset 0 0 3px #2fd072;
+}  
+#Pass1{  
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s;
+  border-color: #27ae60;
+  box-shadow: inset 0 0 3px #2fd072;
+}  
+#submit{  
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 25px;
+  font-size: 20px;
+  transition: all 0.3s;  
+  border-color: #27ae60;
+  box-shadow: inset 0 0 3px #2fd072;
+}  
+span{  
+color: white;  
+font-size: 17px;  
+}  
+.login a{  
+float: right; 
+font-size: 20px;
+color: blue;  
+}  
+/* register */
+.regsection{
+  padding: 20px 45px 10px 15px;
+  margin-left: 450px;
+  margin-top: 20px;
+  margin-right: 400px;
+  justify-content: center;
+} 
+ .title{
+  text-align: center;
+  justify-content: center;
+}  
+ .signup{  
+  width: 550px;  
+  overflow: hidden;  
+  margin: auto;  
+  margin: 20 0 0 400px; 
+  background:#339966;  
+  padding: 20px 30px;
+  width: 420px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}  
+.signup h2{  
+  text-align: center;  
+  color: white;  
+  padding: 20px;  
+}   
+label{  
+color: black;  
+font-size: 20px; 
+ }
+ #Uname{  
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s;
+  border-color: #27ae60;
+  box-shadow: inset 0 0 3px #2fd072;
+} 
+#phoneNumber{  
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s;
+  border-color: #27ae60;
+  box-shadow: inset 0 0 3px #2fd072;
+}   
+
+
+.button {
+  background:	#958F79;
+  border: 0;
+  padding: 15px 30px;
+  margin-top: 20px;
+  color:black;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.button:hover {
+  background: #5ec190;
+}
+
+#password{  
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s;
+  border-color: #27ae60;
+  box-shadow: inset 0 0 3px #2fd072;
+}   
+#city{  
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s;
+  border-color: #27ae60;
+  box-shadow: inset 0 0 3px #2fd072;
+  } 
+#e-mail{
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s;
+  border-color: #27ae60;
+  box-shadow: inset 0 0 3px #2fd072;
+}
+ #CPass{  
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightgrey;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s;
+  border-color: #27ae60;
+  box-shadow: inset 0 0 3px #2fd072;
+}   
+#reg{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 17px;  
+padding-left: 7px;  
+color: black;  
+}  
+span{  
+color: white;  
+font-size: 20px;  
+}  
+.signup a{  
+float: right;
+font-size: 20px; 
+color:blue;  
+}  
+  /* gallery */
+.sectiongal {
+  background-color: #f1f1f1;
+  padding: 20px 10px 15px 10px;
+  font-family: Arial;
+  margin-top: 3%;
+ box-sizing: border-box;
+ max-width: 1400px;
+ width: 100%;
+ margin-left: 3%;
+}
+.content img{
+  display: block;
+  background-size: cover;
+  display :block;
+  padding: 20px 10px 15px 10px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 200px;
+}
+.content a{
+  align-content:center;
+  padding-left: 110px;
+}
+/* each district page */
+.pg-head {
+  background-color:goldenrod;
+  margin: 0;
+  padding: 0 60px 0 20px;
+  color:black;
+  z-index: 11;
+  display: block;
+  width: 100%;
+  float: left;
+}
+.pg-head {
+  padding: 0 20px;
+}
+@media only screen and (max-width: 1023px){
+.pg-head {
+  margin-top: 15px;
+}}
+#dis{
+  margin-top:1%;
+  margin-left: 10%; 
+  border: 2px solid black;
+  border-radius: 12px;
+  width:80%;
+  padding:25px;
+
+}
+ img{
+ height: 200px;
+ width: 300px;
+}
+.imgsection {
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.imgsection:hover .overlay {
+  opacity: 1;
+}
+/* Center website */
+.head-img { 
+  margin-top: 3%;
+   background-color: #f1f1f1;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1400px;
+  width: 100%;
+  margin-left: 3%;
+}   
+img{
+  /* object-fit: cover; */
+  display: block;
+  background-size: cover;
+  display :block;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80%;
+}
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* About */
+.sectionabout img{
+ width:400px;
+ height: 400px;
+ float:inherit;
+}

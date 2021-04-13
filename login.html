@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style2.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>  
+</head>
+<body background="./images/shutterstock_1404270323_20191104175504.jpg">
+    <!--starting of header-->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand absolute" href="#"><img src="./images/Kerala_Tourism_8MBbARQ.jpg" height="70"></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-light">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+            <div class="top-head"><h1>Kerala Tourism</h1></div>
+            <ul class="navbar-nav absolute-right">
+              <li class="nav-item">
+                <a href="login.html" class="nav-link">Login</a>
+              </li>
+              <li class="nav-item">
+                <a href="signup.html" class="nav-link">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- END header -->
+    <!--login page starts-->
+    <div class="container"> 
+      <div class="login">
+        <div class="title">
+          LOGIN FORM
+          <br><br>
+        </div>
+        <form name="Form" action="index.html" onsubmit="return formValidate((document.Form.user),(document.Form.pass));">
+          <span>Don't have an account ?</span>     
+        <a href="signup.html">SignUp</a>  
+        <br><br>
+        <label for="UserName">User Name </label>
+        <input type="text" id="Uname" name="user" placeholder="Noah" />
+        <br><br>
+        <label for="password">Password </label>
+        <input type="password" id="password"  name="pass"  title="8 characters minimum"/><br><br>
+      
+        <button id="submit">Log In Here</button>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        <a href="#">Forgot Password</a>    
+      </form>
+      </div>
+    </div>
+    <!--login ends-->
+    <script src="./js/form2.js"></script>
+</body>
+</html>
